@@ -1,0 +1,165 @@
+@import url(header.css);
+@import url(imagens.css);
+@import url(cards.css);
+*
+{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+main
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.offcanvas-body a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.marcasPro
+{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 105px;
+    padding: 2px;
+}
+.adidas
+{
+    font-size: 60px;
+    margin-left: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.bonesAdidas
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textbn3
+{
+    font-size: 15px;
+}
+
+.inicio1
+{
+    color: #cf2d2d;
+}
+
+.logoalemao
+{
+  height: 80px;
+}
+
+.colorlupas
+{
+    font-size: 50px;
+    color: hwb(0 38% 62%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+}
+
+.vestindoaquebrada
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+    
+}
+
+.CorpoPrincipal
+{
+    display: flex;
+    
+}
+
+.CorpoPrincipalTitulo
+{
+    flex-grow: 1;
+}
+
+.principal
+{
+    flex-grow: 2;
+}
+
+.titulosBones
+{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 105px;
+    margin-left: 20px;
+
+}
+
+.redesSociais
+{
+    width: 650px;
+  
+    display: flex;
+}
+
+.sobrenos
+{
+   margin-right: 100px;
+}
+
+.nos{
+    width: 800px;
+    margin: auto;
+}
+
+
+@media (max-width:680px)
+{
+    .items
+    {
+        display: block;
+    }
+    .item
+    {
+        margin-bottom: 20px;
+    }
+
+    .CorpoPrincipal
+    {
+        flex-direction: column;
+    }
+
+    .items-star
+    {
+        flex-direction: column;
+    }
+
+    .imagemc1, .imagemc2, .imagemc3, .imagemc4
+    {
+        height: 100%;
+    }
+
+    .marcasPro
+    {
+        flex-direction: column;
+        height: 200px;
+    }
+}

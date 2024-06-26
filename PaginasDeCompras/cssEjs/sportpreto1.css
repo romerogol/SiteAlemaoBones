@@ -11,6 +11,10 @@ html, body{
     font-family: sans-serif;
 }
 
+.conteudoEmbranco
+{
+    height: 10rem;
+}
 
 header
 {

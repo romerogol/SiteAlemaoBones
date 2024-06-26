@@ -40,7 +40,7 @@ main
     height: 105px;
     padding: 2px;
 }
-.adidas
+.adidass
 {
     font-size: 60px;
     margin-left: 35px;
@@ -81,7 +81,7 @@ main
 .vestindoaquebrada
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 
     
@@ -160,6 +160,6 @@ main
     .marcasPro
     {
         flex-direction: column;
-        height: 200px;
+        height: 110px;
     }
 }
